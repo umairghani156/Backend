@@ -1,0 +1,17 @@
+{
+  "name": "httpnodeserver",
+  "version": "1.0.0",
+  "description": "tutorial",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "umair ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "lodash": "^4.17.21"
+  }
+}

@@ -1,4 +1,16 @@
-const fs = require("fs");
+//const fs = require("fs");
+// const http = require("http");
+// const server = http.createServer((req,res)=>{
+//     if(req.url === "/"){
+//     res.write("Hello World from Nodejs");
+//     res.end();
+//     }else{
+//         res.write("Using from some other domain");
+//         res.end();
+//     }
+// })
+
+// server.listen("3000")
 
 // fs.writeFile("example.txt", "This is an example",(err)=>{
 //     if(err)
@@ -113,11 +125,15 @@ const fs = require("fs");
 //     }
 // })
 
-const zlib = require("zlib");
-//const gzip = zlib.createGzip();
-const gunzip = zlib.createGunzip();
-//const readStream = fs.createReadStream("./example.txt", "utf8");
-const readStream = fs.createReadStream("./example2.txt.gz",);
+// const zlib = require("zlib");
+// //const gzip = zlib.createGzip();
+// const gunzip = zlib.createGunzip();
+// //const readStream = fs.createReadStream("./example.txt", "utf8");
+// const readStream = fs.createReadStream("./example2.txt.gz",);
 
-const writeStream = fs.createWriteStream("uncompressed.txt");
-readStream.pipe(gunzip).pipe(writeStream);
+// const writeStream = fs.createWriteStream("uncompressed.txt");
+// readStream.pipe(gunzip).pipe(writeStream);
+
+
+
+
